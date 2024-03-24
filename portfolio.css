@@ -1,0 +1,283 @@
+*{
+    padding:0px;
+    margin:0px;
+    scroll-behavior: smooth;
+}
+
+.img-portfolio{
+    width:10rem;
+    height:7.5rem;
+}
+.img-portfolio img{
+    width:100%;
+    height:100%;
+}
+.nav-bar ul{
+    display:flex;
+    list-style: none;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color:black;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding:1rem;
+    font-family: 'Smooch Sans', sans-serif;
+    border: 1.5px solid transparent;
+}
+
+.nav-bar{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.463);
+    background-color: #85756E;
+    margin-bottom: 10px;
+    /*background-color: rgba(157, 125, 113, 0.511);*/
+}
+
+.list-op li :hover{
+    color:rgb(187, 104, 74);
+    font-style: italic;
+    font-size:0.92rem;
+    border: 1.5px solid transparent;
+}
+
+.front-div{
+    background-color: rgba(157, 125, 113, 0.511);
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.head-name{
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 500;
+    font-size:2rem;
+    padding:5px;
+    font-style: bold;
+}
+
+.para-cont{
+    font-family: 'Lora', serif;
+    font-size: 1.4rem;
+    padding:5px;
+}
+
+.socail-media{
+    display:flex;
+    padding-top:1.2rem;
+}
+
+i{
+    font-size: 1.7rem;
+}
+.med{
+    margin:0.7rem;
+}
+
+.insta:hover{
+   cursor: pointer;
+    color: #684231;
+    transition: 0.9s;
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg)
+}
+
+.svg-img{
+    width:48rem;
+    display:flex;
+    justify-content: flex-end;
+}
+img{
+    height:150px;
+    text-align: center;
+}
+
+.about-me{
+    margin:0.7rem;
+    background-color:#B99470;
+    height: 600px;
+}
+
+.img-phone{
+    display:flex;
+    align-items: center;
+    height:100%;
+    padding: 0px 10%;
+}
+
+.my-image{
+    height:80%;
+    border-radius: 20px;
+    color:black;
+    /* opacity: 0.44; */
+}
+
+/* .my-image:hover{
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 2s;
+    transition-delay: 0.2s;
+    cursor: pointer;
+} */
+
+
+.content{
+    margin-left:10rem;
+    height:80%;
+    width:70%;
+    background-color:#bea56f ;
+    border-radius: 20px;
+}
+.about-story{
+    padding:0.8rem;
+}
+
+.change-animation{
+    padding-left:2.3rem;
+    height:100%;
+    width:620px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size:30px;
+    font-weight: 600;
+    color:#684231;
+}
+
+.dyna-text{
+    list-style: none;
+}
+
+.am-div{
+    height:180px;
+    padding-right: 5px;
+}
+
+ .am-div span::before{
+    content: "";
+    animation: animate infinite 8s;
+}
+
+.am-div span{
+    font-family: 'Titillium Web', sans-serif;
+    font-style: italic;
+    font-size: 3rem;
+    margin:0.3rem;
+}
+@keyframes animate{
+    0%{
+        content:"freelancer";
+    }
+    20%{
+        content:"Student";
+    }
+    40%{
+        content:"photographer";
+    }
+    60%{
+        content:"Developer";
+    }
+    80%{
+        content:"Coder"
+    }
+    100%{
+        content:"designer";
+    }
+}
+
+.div-expers{
+    background-image: url(background-4032775_1280.png);
+    background-size: cover;
+    height:400px;
+    text-align: center;
+    padding:1rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skillbox{
+    height:300px;
+    width:600px;
+    background-color:#a5905f;
+    border-radius: 5px;
+    box-shadow : 0 4px 2px -2px rgba(0, 0, 0, 0.463);
+}
+
+.skillitem{
+    display:flex;
+    padding:0.5rem;
+    align-items: center;
+    margin:10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.skill{
+    width:265px;
+    height:6px;
+    background-color:black;
+    text-align: center;
+    margin:0.7rem;
+    border-radius: 5px;
+}
+
+.contactme{
+    height:300px;
+    text-align: center;
+    background-color:#B3A492;
+    margin-top:10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conte{
+    margin:0.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+.myid{
+    border: 0.1rem solid black;
+    padding:1rem;
+    border-radius: 20px;
+    margin:1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.text{
+    font-size: 1.1rem;
+}
+
+.heading{
+    font-weight:400;
+}
+
+.linkedin{
+    margin:0.4rem;
+}
+
+.copyright{
+    height:40px;
+    background-color:black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright p{
+    color:azure;
+}
+
+
+
